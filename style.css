@@ -1,0 +1,55 @@
+*{
+    padding: 0 ;
+    margin: 0;
+
+}.par1{
+    width: 25px;
+    height: 25px;
+    background-color: brown;
+    animation: Animat 3s linear 2s 2 normal both;
+    margin:20px;
+
+}
+@keyframes Animat{
+    0%{
+        transform:translate(0px,0px);
+        background-color: bisque;
+    }
+
+    12.5%{
+        transform: translate(0px,50px);
+        background-color: blue;
+    }
+    25%{
+        transform: translate(50px,0px);
+        background-color: aqua;
+    }
+    37.5%{
+        transform: translate(50px,50px);
+        background-color: blueviolet;
+    }
+    50%{
+        transform: translate(100px,0px);
+        background-color: crimson;
+    }
+    62.5%{
+        transform: translate(100px,50px);
+        background-color: deeppink;
+
+    }
+    75%{
+        transform: translate(50px,100px);
+        background-color: yellow;
+
+    }
+    87.5%{
+        transform: translate(0px,100px);
+        background-color: lightslategray;
+
+    }
+    100%{
+        transform: translate(100px,100px);
+        background-color: tomato;
+
+    }
+}
